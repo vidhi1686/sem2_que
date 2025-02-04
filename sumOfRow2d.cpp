@@ -1,4 +1,4 @@
-// Calculate and print sum of each coloumn
+// Calculate and print sum of each row
 #include <iostream>
 using namespace std;
 int main()
@@ -13,11 +13,11 @@ int main()
         }
     }
     int sum=0;
-    for(int j=0;j<3;j++){
-        for(int i=0;i<3;i++){
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++){
             sum+=arr[i][j];
         }
-        cout<<"Sum of col"<<j+1<<"="<<sum<<endl;
+        cout<<"Sum of rows"<<i+1<<"="<<sum<<endl;
     }
     return 0;
 }

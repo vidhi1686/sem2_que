@@ -14,20 +14,6 @@ int main()
     {
         cin >> arr[i];
     }
+    for(int i=0;i<5;)
 
-    int max = arr[0];
-    int min = arr[0];
-
-
-    for (int i = 1; i < n; i++)
-    {
-        if (arr[i] > maxElement)
-        {
-            maxElement = arr[i];
-        }
-        if (arr[i] < minElement)
-        {
-            minElement = arr[i];
-        }
-    }
 }
