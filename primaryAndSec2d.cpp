@@ -10,7 +10,8 @@ int main(){
         }
     }
     cout<<"primary Diagonal";
-    for(int i=0,j=0;i<3,j<3;i++,j++){
+    for(int i=0,j=0;i<3,j<3;i++,j++){          //for(int i=0;i<3;i++){
+                                               //cout<<arr[i][i]<<"\t";
         cout<<arr[i][j]<<"\t";
     }
     cout<<endl;
