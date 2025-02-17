@@ -6,6 +6,9 @@ int power(int b,int exp)
     if(exp==0){
         return 1;
     }
+    if(exp==1){
+        return b;
+    }
     return b*power(b,exp-1);
 }
 int main()
