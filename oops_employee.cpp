@@ -21,20 +21,19 @@ class Employee
         cout<<"enter base salary:";
         cin>>base_salary;
         cout<<"enter dearance allowance:";
-        cin>>dearance_allowance;
-        cout>>"enter travel  allowance";
+        cin>>dearness_allowance;
+        cout<<"enter travel  allowance";
         cin>>travel_allowance;
     }
-    void calculate()
-    {
+    void calculate(){
         
         monthly_salary=base_salary+dearness_allowance+ travel_allowance;
-        
         annual_salary=monthly_salary*12;
     }
     void display(){
         cout<<"Employee id:"<<employee_id<<endl;
         cout<<"Name:"<<name<<endl;
+        cout << "Monthly salary:"<<monthly_salary<<endl;
         cout << "Annual salary:"<<annual_salary<<endl;
         
     }
